@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.posters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+/* Star Wars */
+.starwars {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+}
+
+.ship {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#shiplight {
+  margin: auto;
+  margin-right: 0;
+  width: 0;
+  height: 0;
+  border-left: 15vw solid transparent;
+  border-right: 0vw solid transparent;
+  border-top: 300px solid dimgray;
+}
+
+#shipdark {
+  margin: auto;
+  margin-left: 0;
+  width: 0;
+  height: 0;
+  border-left: 0vw solid transparent;
+  border-right: 15vw solid transparent;
+  border-top: 300px solid darkgray;
+}
+
+/* Iron Man */
+.ironman {
+  width: 30%;
+  height: 100%;
+  background-color: #C42828;
+}
